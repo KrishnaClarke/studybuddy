@@ -1,4 +1,4 @@
-import Messages from "../components/Messages";
+import Messages from "./Messages";
 
 function HomeScreen() {
   return (
