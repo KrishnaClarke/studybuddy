@@ -4,6 +4,7 @@ import Image from "next/image";
 //import Calander from "../components/Calander";
 //import AddReminder from "../components/AddReminder";
 //import EditReminder from "../components/EditReminder";
+import AddIcon from "../images/add.svg";
 
 export default function Home() {
   return (
@@ -12,12 +13,10 @@ export default function Home() {
         <h1 className="header">Study Buddy</h1>
       </header>
 
-      <div className="footer">
-        <img src="img/add.svg"></img>
-      </div>
+      <div className="bottombanner"></div>
 
       <footer className="footer">
-        <p>Study Buddy</p>
+        <p>copyright @1995 </p>
         <img></img>
       </footer>
     </div>
