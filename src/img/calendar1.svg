@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" fill="none" viewBox="0 0 128 128" id="calendar">
+  <path stroke="#000" stroke-linecap="round" stroke-width="6" d="M45 33V33C34.5066 33 26 41.5066 26 52L26 83C26 93.4934 34.5066 102 45 102V102L64 102 83 102V102C93.4934 102 102 93.4934 102 83L102 52C102 41.5066 93.4934 33 83 33V33L73.5 33 64 33 58.5 33M49 40V26M79 40V26M28 61H101.5"></path>
+</svg>
