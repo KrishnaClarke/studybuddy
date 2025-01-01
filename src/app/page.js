@@ -2,7 +2,7 @@ import Image from "next/image";
 //import Home from "../components/Home";
 //import Messages from "../components/Messages";
 //import Calander from "../components/Calander";
-// import AddReminder from "../components/AddReminder";
+import AddReminder from "./components/AddReminder";
 // import EditReminder from "../components/EditReminder";
 // import Reminders from "../components/Reminders";
 // import DeleteReminder from "../components/DeleteReminder";
@@ -53,7 +53,7 @@ export default function Home() {
         <Link href="/delete">Delete Reminder</Link>
       </div> */}
       <div>
-        <Link href="/add">
+        <Link href="/AddReminder">
           <svg
             className="addicon"
             xmlns="http://www.w3.org/2000/svg"
