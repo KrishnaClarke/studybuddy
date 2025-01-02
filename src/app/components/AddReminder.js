@@ -1,6 +1,9 @@
+"use client";
+
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import { useHistory } from "react-router-dom"; // Import useHistory for navigation
+import "./globals.css";
 
 const AddReminder = ({ onAdd }) => {
   const [reminder, setReminder] = useState("");
@@ -88,7 +91,8 @@ const AddReminder = ({ onAdd }) => {
             id="calendar"
           >
             {/* SVG content */}
-          </svg>
+          </svg>{" "}
+          {/* Correctly close the SVG tag here */}
         </button>
       </div>
     </div>
