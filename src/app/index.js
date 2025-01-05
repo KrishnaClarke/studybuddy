@@ -15,9 +15,9 @@ ReactDOM.render(
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home'; // Adjust the import based on your file structure
-import AddReminder from './components/AddReminder'; // Adjust the import based on your file structure
-import Messages from './mes/Messages'; // Example component
-import Calendar from './cal/Calendar'; // Example component
+import AddReminder from '../fails/components/AddReminder'; // Adjust the import based on your file structure
+import Messages from '../fails/mes/Messages'; // Example component
+import Calendar from '../fails/cal/Calendar'; // Example component
 
 const App = () => {
   return (

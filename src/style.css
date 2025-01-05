@@ -1,0 +1,116 @@
+header{
+    background: #E5D9F2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+.title{
+    font-size: 50px;
+    margin: 0px;
+  }
+  
+  .bottombanner{
+    background-color: #CDC1FF;
+    display: flex;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+  .footer{
+   background-color: #CDC1FF; 
+   text-align: center;
+  }
+  
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+  .profileicon{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  width: 40px;
+  }
+  
+  .addicon{
+    background-color: #F5EFFF;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    width: 40px;
+  }
+  
+  .bottombanner svg{
+    display: table-cell;
+    vertical-align: baseline;
+    line-height: 1;
+    cursor: pointer;
+  }
+  
+  .messageicon{
+    width: 40px;
+  }
+  
+  .calandericon{
+    width: 60px;
+    height: 60px;
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #007bff;
+}
+
+li button:hover {
+    background-color: #0056b3;
+}
