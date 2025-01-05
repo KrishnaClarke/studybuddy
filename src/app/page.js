@@ -1,11 +1,7 @@
 import Image from "next/image";
-//import Home from "../components/Home";
-//import Messages from "../components/Messages";
-//import Calander from "../components/Calander";
+// import Calander from "../cal/Calander"; // Consider removing if not used
+// import Massages from "../mes/Massages"; // Consider removing if not used
 import AddReminder from "./components/AddReminder";
-// import EditReminder from "../components/EditReminder";
-// import Reminders from "../components/Reminders";
-// import DeleteReminder from "../components/DeleteReminder";
 import Link from "next/link";
 
 export default function Home() {
@@ -13,45 +9,38 @@ export default function Home() {
     <div>
       <header className="header">
         <h1 className="title">StudyBuddy</h1>
-        <Link href="/profile">
-          <svg
-            className="profileicon"
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            id="profile"
+
+        <svg
+          className="profileicon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          id="profile"
+        >
+          <g
+            id="Page-1"
+            fill="none"
+            fillRule="evenodd"
+            stroke="none"
+            strokeWidth="1"
           >
             <g
-              id="Page-1"
-              fill="none"
-              fillRule="evenodd"
-              stroke="none"
-              strokeWidth="1"
+              id="Dribbble-Light-Preview"
+              fill="#000"
+              transform="translate(-420 -2159)"
             >
-              <g
-                id="Dribbble-Light-Preview"
-                fill="#000"
-                transform="translate(-420 -2159)"
-              >
-                <g id="icons" transform="translate(56 160)">
-                  <path
-                    id="profile-[#1335]"
-                    d="M374 2009c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4m3.758.673A5.983 5.983 0 0 0 380 2005a6 6 0 1 0-9.758 4.673c-3.659 1.375-6.242 4.772-6.242 9.327h2c0-5 3.589-8 8-8s8 3 8 8h2c0-4.555-2.583-7.952-6.242-9.327"
-                  ></path>
-                </g>
+              <g id="icons" transform="translate(56 160)">
+                <path
+                  id="profile-[#1335]"
+                  d="M374 2009c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4m3.758.673A5.983 5.983 0 0 0 380 2005a6 6 0 1 0-9.758 4.673c-3.659 1.375-6.242 4.772-6.242 9.327h2c0-5 3.589-8 8-8s8 3 8 8h2c0-4.555-2.583-7.952-6.242-9.327"
+                ></path>
               </g>
             </g>
-          </svg>
-        </Link>
+          </g>
+        </svg>
       </header>
-      {/* <div>
-        <Link href="/add">Add Reminder</Link>
-        <Link href="/reminders">Reminders</Link>
-        <Link href="/calander">Calendar</Link>
-        <Link href="/edit">Edit Reminder</Link>
-        <Link href="/delete">Delete Reminder</Link>
-      </div> */}
+
       <div>
         <Link href="/AddReminder">
           <svg
@@ -75,7 +64,7 @@ export default function Home() {
         <Link href="/messages">
           <svg
             className="messageicon"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="http://www .w3.org/2000/svg"
             width="20"
             height="20"
             viewBox="0 0 20 20"
@@ -118,7 +107,7 @@ export default function Home() {
         </Link>
         <Link href="/calendar">
           <svg
-            className="calandericon"
+            className="calendaricon"
             xmlns="http://www.w3.org/2000/svg"
             width="128"
             height="128"
@@ -137,7 +126,6 @@ export default function Home() {
       </div>
       <footer className="footer">
         <p>copyright @1995 </p>
-        <img />
       </footer>
     </div>
   );

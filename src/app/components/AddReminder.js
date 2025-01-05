@@ -2,13 +2,13 @@
 
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import { useHistory } from "react-router-dom"; // Import useHistory for navigation
+import { useNavigate } from "react-router-dom"; // Use useNavigate instead of useHistory
 import "./globals.css";
 
 const AddReminder = ({ onAdd }) => {
   const [reminder, setReminder] = useState("");
   const [date, setDate] = useState("");
-  const history = useHistory(); // Initialize useHistory
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -19,7 +19,7 @@ const AddReminder = ({ onAdd }) => {
   };
 
   const handleNavigation = (path) => {
-    history.push(path); // Navigate to the specified path
+    navigate(path); // Navigate to the specified path
   };
 
   return (
@@ -82,7 +82,7 @@ const AddReminder = ({ onAdd }) => {
         </button>
         <button onClick={() => handleNavigation("/calendar")}>
           <svg
-            className="calandericon"
+            className="calendaricon"
             xmlns="http://www.w3.org/2000/svg"
             width="128"
             height="128"
@@ -91,8 +91,7 @@ const AddReminder = ({ onAdd }) => {
             id="calendar"
           >
             {/* SVG content */}
-          </svg>{" "}
-          {/* Correctly close the SVG tag here */}
+          </svg>
         </button>
       </div>
     </div>
