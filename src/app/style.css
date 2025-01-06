@@ -1,11 +1,21 @@
-header{
+body {
+  margin-top: 80px;
+}
+
+.header{
     background: #E5D9F2;
     text-align: center;
     display: flex;
     align-items: center;
-    position: relative;
+    position: fixed;
     justify-content: center;
     padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
   }
   
 .title{
@@ -17,6 +27,7 @@ header{
     font-size: 30px;
 }
 .container{
+    padding-top: 80px;
     background: #A294F9;
     padding: 20px;
     border-radius: 10px;
@@ -25,7 +36,9 @@ header{
     table-layout: fixed;
     border-spacing: 10px;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
   .bottombanner{
     background-color: #CDC1FF;
@@ -36,6 +49,11 @@ header{
     justify-content: center;
     align-items: center;
     gap: 70px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    right: 0;
   }
   .footer{
    background-color: #CDC1FF; 

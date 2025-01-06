@@ -43,7 +43,7 @@ const Home = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <header>
+      <header className="header">
         <h1 className="title">StudyBuddy</h1>
       </header>
 
